@@ -1,6 +1,8 @@
 package fatum.common.dto.user
 
-import fatum.common.enum.user.UserRole
+import fatum.common.enums.user.Gender
+import fatum.common.enums.user.UserRole
+import fatum.common.enums.user.VerificationStatus
 import java.time.LocalDate
 
 data class M2User(
